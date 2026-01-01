@@ -32,13 +32,6 @@ class Calculator:
         self.result = num1 ** num2
         return self.result
 
-    def reset(self):
-        self.result = 0
-        return "Reset Succesfull!"
-
-    def get_result(self):
-        return self.result
-
 class CalculatorMenu:
     def __init__(self):
         self.calc = Calculator()
